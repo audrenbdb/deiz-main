@@ -47336,7 +47336,7 @@ a6w:function(a){var s=0,r=P.w(t.z),q=this,p
 var $async$CZ=P.r(function(b,c){if(b===1)return P.t(c,r)
 while(true)switch(s){case 0:p=q.c
 p.toString
-B.kp(p,"https://deiz.fr/calendars?id="+H.c(a.a))
+B.kp(p,"https://deiz.fr/bookings?clinician="+H.c(a.a))
 return P.u(null,r)}})
 return P.v($async$CZ,r)},
 D_:function(a){return this.a6x(a)},
@@ -47344,7 +47344,7 @@ a6x:function(a){var s=0,r=P.w(t.z),q=this,p
 var $async$D_=P.r(function(b,c){if(b===1)return P.t(c,r)
 while(true)switch(s){case 0:p=q.c
 p.toString
-B.kp(p,"https://deiz.fr/payments?id="+H.c(a.a))
+B.kp(p,"https://deiz.fr/payments?clinician="+H.c(a.a))
 return P.u(null,r)}})
 return P.v($async$D_,r)},
 rD:function(a){return this.a7u(a)},
