@@ -45644,26 +45644,24 @@ o=a0.Q
 n=S.aGL(a0.gIt())
 m=a0.gVt()
 l=a1.c.f
-k=l.d
-j=k.a!==0
-i=j?0:20
-h=s.y?s.x:a1.d.f.f
-g=l.c
-f=g===""?"Siret : "+g:""
-g=a1.d
-e=g.f.x
-d=e.a!==0?"Adeli : "+e.b:""
-c=new P.ab(Date.now(),!1).AF()
-e=h.d
-b=e+", le "+A.mk(null).c1(c.dz())
-g=g.f
+k=a1.d.f
+j=new P.ab(Date.now(),!1).AF()
+i=l.d
+h=i.a!==0?0:20
+g=s.y?k.f:s.x
+f=k.c+" "+k.b
+e=g.d
+d=""+g.c+" "+e
+c=l.c
+c=c.length===0?"":"Siret : "+c
+b=k.x.b
+b=b.length===0?"":"Adeli : "+b
 a=t.s
-e=H.a([l.b,"",g.c+" "+g.b,g.r,h.b,""+h.c+" "+e,"",f,d],a)
+b=H.a([l.b,"",f,k.r,g.b,d,"",c,b],a)
 a=H.a([r,q,p],a)
 p=s.c
 q=A.mk(null).c1(s.c.dz())
-r=C.x.cF(n/(1+i/100))
-return a1.b.yN(D.azi(s,!1,b,c,p,q,j?k.b:"",0,"",o,m,n,r,a,e,i),a2)},
+return a1.b.yN(D.azi(s,!1,e+", le "+A.mk(null).c1(j.dz()),j,p,q,i.b,0,"",o,m,n,C.x.cF(n/(1+h/100)),a,b,h),a2)},
 t:function(a,b){return new U.V2(this,null)}}
 U.anx.prototype={
 $1:function(a){var s=this.a
@@ -45929,23 +45927,20 @@ if(l==null)l=H.c(H.j("billingUsecase"))
 s=6
 return P.A(l.b.a.kV(C.B.dt(P.ad(["invoice",a,"sendTo",b],t.N,t.K),null),"pdf-booking-invoices/"+a.a),$async$vU)
 case 6:l=n.c
-k="Envoy\xe9 \xe0 "+b
+if(l!=null){k="Envoy\xe9 \xe0 "+b
 l=l.D(t.q)
 l.toString
-l.f.dd(N.cz(null,null,null,null,L.y(k,null,null,null,null,null,null,null,null),C.ab,null,null,null,null,null,null,null))
-q=1
+l.f.dd(N.cz(null,null,null,null,L.y(k,null,null,null,null,null,null,null,null),C.ab,null,null,null,null,null,null,null))}q=1
 s=5
 break
 case 3:q=2
 i=p
 m=H.G(i)
 l=n.c
-l.toString
-k=J.bo(m)
+if(l!=null){k=J.bo(m)
 l=l.D(t.q)
 l.toString
-l.f.dd(N.cz(null,null,null,null,L.y(k,null,null,null,null,null,null,null,null),C.ab,null,null,null,null,null,null,null))
-s=5
+l.f.dd(N.cz(null,null,null,null,L.y(k,null,null,null,null,null,null,null,null),C.ab,null,null,null,null,null,null,null))}s=5
 break
 case 2:s=1
 break
