@@ -45371,7 +45371,7 @@ return s.a!==0?s.b:"Motif non renseign\xe9"}if(s)return"Bloqu\xe9"
 return"Libre"}}
 Y.Na.prototype={
 ed:function(a,b,c){var s,r,q=null,p=t.S,o=c.$1$1(O.ew($.aCg(),p),p)
-p=this.d[1]
+p=this.d[o]
 s=K.M(b)
 r=H.a([F.a3q(L.I(C.lV,q,q),"Agenda"),F.a3q(L.I(C.Kl,q,q),"Patients"),F.a3q(L.I(C.JY,q,q),"Comptes"),F.a3q(L.I(C.Kq,q,q),"R\xe9glages")],t.ur)
 return new M.ui(M.eM(q,p,new L.xz(r,new Y.a9W(b),o,s.b,C.CE,!0,q),q),q)}}
