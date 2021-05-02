@@ -45570,7 +45570,7 @@ return"Libre"}}
 Y.Nk.prototype={
 e4:function(a,b,c){var s,r,q=null,p=b.F(t.l).f,o=t.S,n=c.$1$1(O.ec($.aCZ(),o),o)
 o=this.d[n]
-p=p.r.d>0?76:60
+p=p.a.b>625?76:60
 s=K.J(b)
 r=H.a([F.a3H(L.L(C.m0,q,q),"Agenda"),F.a3H(L.L(C.Kp,q,q),"Patients"),F.a3H(L.L(C.K2,q,q),"Comptes"),F.a3H(L.L(C.Ku,q,q),"R\xe9glages")],t.ur)
 return new M.uy(M.eP(q,o,Q.iJ(!0,T.d4(new L.xR(r,new Y.aae(b),n,s.b,C.c5,!0,q),p,q),!0,C.ah,!0,!0),q),q)}}
