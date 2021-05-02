@@ -44274,11 +44274,11 @@ Y.rh.prototype={
 uG:function(a,b){return this.anB(a,b)},
 anB:function(a,b){var s=0,r=P.w(t.H),q=this,p
 var $async$uG=P.r(function(c,d){if(c===1)return P.t(d,r)
-while(true)switch(s){case 0:p=C.b.fB(a)
+while(true)switch(s){case 0:p=C.b.fB(a).toLowerCase()
 s=2
-return P.A(q.a.zu(p.toLowerCase(),b),$async$uG)
+return P.A(q.a.zu(p,b),$async$uG)
 case 2:s=3
-return P.A(q.b.we(p.toLowerCase(),b),$async$uG)
+return P.A(q.b.we(p,b),$async$uG)
 case 3:return P.u(null,r)}})
 return P.v($async$uG,r)},
 zy:function(){var s=0,r=P.w(t.H),q=this,p,o
@@ -45568,11 +45568,12 @@ if(!(s||a.a===0)){s=a.e
 return s.a!==0?s.b:"Motif non renseign\xe9"}if(s)return"Bloqu\xe9"
 return"Libre"}}
 Y.Nk.prototype={
-e4:function(a,b,c){var s,r,q=null,p=t.S,o=c.$1$1(O.ec($.aCZ(),p),p)
-p=this.d[o]
+e4:function(a,b,c){var s,r,q=null,p=b.F(t.l).f,o=t.S,n=c.$1$1(O.ec($.aCZ(),o),o)
+o=this.d[n]
+p=p.r.d>0?76:60
 s=K.J(b)
 r=H.a([F.a3H(L.L(C.m0,q,q),"Agenda"),F.a3H(L.L(C.Kp,q,q),"Patients"),F.a3H(L.L(C.K2,q,q),"Comptes"),F.a3H(L.L(C.Ku,q,q),"R\xe9glages")],t.ur)
-return new M.uy(M.eP(q,p,Q.iJ(!0,T.d4(new L.xR(r,new Y.aae(b),o,s.b,C.c5,!0,q),70,q),!0,C.ah,!0,!0),q),q)}}
+return new M.uy(M.eP(q,o,Q.iJ(!0,T.d4(new L.xR(r,new Y.aae(b),n,s.b,C.c5,!0,q),p,q),!0,C.ah,!0,!0),q),q)}}
 Y.aae.prototype={
 $1:function(a){var s=$.aCZ()
 J.aQc(N.cm(this.a,!1).aE(0,s,t.Q_),a)
