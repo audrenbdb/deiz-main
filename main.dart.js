@@ -45568,10 +45568,10 @@ return s.a!==0?s.b:"Motif non renseign\xe9"}if(s)return"Bloqu\xe9"
 return"Libre"}}
 Y.Nk.prototype={
 e4:function(a,b,c){var s,r,q=null,p=t.S,o=c.$1$1(O.ec($.aCZ(),p),p)
-p=this.d[o]
+p=Q.iJ(!0,this.d[o],!0,C.ah,!0,!1)
 s=K.J(b)
 r=H.a([F.a3H(L.L(C.m0,q,q),"Agenda"),F.a3H(L.L(C.Kp,q,q),"Patients"),F.a3H(L.L(C.K2,q,q),"Comptes"),F.a3H(L.L(C.Ku,q,q),"R\xe9glages")],t.ur)
-return Q.iJ(!0,new M.uy(M.eP(q,p,new L.xR(r,new Y.aae(b),o,s.b,C.c5,!0,q),q),q),!0,C.ah,!0,!0)}}
+return new M.uy(M.eP(q,p,new L.xR(r,new Y.aae(b),o,s.b,C.c5,!0,q),q),q)}}
 Y.aae.prototype={
 $1:function(a){var s=$.aCZ()
 J.aQc(N.cm(this.a,!1).aE(0,s,t.Q_),a)
